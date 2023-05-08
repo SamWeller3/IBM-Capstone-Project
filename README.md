@@ -56,6 +56,42 @@ Libraries or modules used: sys, requests, BeautifulSoup from bs4, re, unicodedat
 - We end up with 121 rows (instances) and 11 columns (features)
 
 ## EDA with Pandas and Numpy
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Wrangling.ipynb
+
+Libraries or modules used: pandas, numpy
+
+Functions from the Pandas and NumPy libraries such as value_counts() are used to derive basic information about the data collected, which includes:
+- Number of launches for each launch site
+- Number of occurences of each orbit
+- Number and occurence of each mission outcome
+
+## EDA with SQL
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Exploratory%20Analysis%20with%20SQL.ipynb
+
+Framework used: IBM DB2
+
+Libraries or modules used: ibm_db
+
+The data is queried using SQL to answer questions about the data such as:
+- Names of unique launch sites
+- Total payload mass carried by boosters by NASA
+- Average payload mass carried by booster version F9 v1.1
+
+The SQL statements used include: SELECT, DISTINCT, AS, FROM, WHERE, LIMIT, LIKE, SUM(), AVG(), MIN(), BETWEEN, COUNT(), and YEAR().
+
+## Data Visualization using Matplotlib and Seaborn
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/SQL%20Visualizations.ipynb
+
+Libraries or modules used: pandas, numpy, matplotlib.pyplot, seaborn
+
+We created visualizations to understand the relationships between:
+- Flight number and launch site
+- Payload mass and launch site
+- Success rate and orbit type
+
+Functions use include are scatterplot(), barplot(), catplot(), and lineplot()
+
+Example: ![image](https://user-images.githubusercontent.com/123184681/236897690-f2322f75-3fef-4dba-99ef-69767bdb9e22.png)
 
 
 
