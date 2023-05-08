@@ -33,4 +33,8 @@ The overall methodology is as follows:
 - Decision tree
 - K-nearest neighbors (KNN)
 
+## Data Collection using SpaceX API
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Collection%20though%20APIs.ipynb
+
+
 
