@@ -15,19 +15,19 @@ What we are trying to answer is, for a set of features on the Falcon 9 rocket su
 
 ## Methodology
 The overall methodology is as follows:
-1: Data collection, wrangling, and formatting
+1) Data collection, wrangling, and formatting
 - SpaceX API
 - Web scraping
-2: Exploratory data analysis (EDA)
+2) Exploratory data analysis (EDA)
 - Pandas
 - NumPy
 - SQL
-3: Data visualization
+3) Data visualization
 - Maplotlib
 - Seaborn
 - Folium
 - Dash
-4:Machine learning prediction
+4) Machine learning prediction
 - Logistic regression
 - Support vector machines (SVM)
 - Decision tree
