@@ -36,7 +36,27 @@ The overall methodology is as follows:
 ## Data Collection using SpaceX API
 https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Collection%20though%20APIs.ipynb
 
-63 I am test
+The API used is: https://api.spacexdata.com/v4/launches/pa
+
+Libraries/modules used: requests, pandas, numpy, datetime
+- The API provides data about many types of rocket launches done by SpaceX, however we filtered the data to only give us data about Falcon 9 launches
+- We use the json_normalize() function in python to convert everything intp json format
+- Missing values are replaced with the mean of the column in belongs to
+- We end up with 90 rows and 17 columns
+
+## Data Collection with Web Scraping
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Collection%20with%20Web%20Scraping.ipynb
+
+Libraries or modules used: sys, requests, BeautifulSoup from bs4, re, unicodedata, pandas
+
+- Data scraped from: List of Falcon 9 and Falcon Heavy launches – Wikipedia
+- Website only contains data from Falcon 9 launches so no filtering is needed in that regard
+- Use column/variable names from the HTML table using the find_all() function from BeautifulSoup
+- A dataframe is then created with the extracted column names and entries filled with launch records that are extracted from table rows
+- We end up with 121 rows (instances) and 11 columns (features)
+
+## EDA with Pandas and Numpy
+
 
 
 
