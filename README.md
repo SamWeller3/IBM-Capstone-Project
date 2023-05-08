@@ -92,6 +92,8 @@ We created visualizations to understand the relationships between:
 Functions use include are scatterplot(), barplot(), catplot(), and lineplot()
 
 Example:
+
+
 ![image](https://user-images.githubusercontent.com/123184681/236897690-f2322f75-3fef-4dba-99ef-69767bdb9e22.png)
 
 
