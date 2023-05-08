@@ -6,4 +6,5 @@ The steps were as follows:
 - Exploratory data analysis
 - Data visualization
 - Machine learning prediction
+
 We concluded that using a decision tree model would be the most accurate prediction model based on our training and test set.
