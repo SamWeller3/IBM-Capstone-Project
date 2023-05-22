@@ -113,7 +113,32 @@ Example: Map showing failed and suceeded launches at a particular launch site
 
 
 ## Machine Learning Prediction
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Machine%20Learning%20%26%20Prediction.ipynb
+
+Libraries or modules used: pandas, numpy, matplotlib.pyplot, seaborn, sklearn
+
+We used function from the Scikit-learn library to create our machine learning models. The machine learning prediction phase took on the following steps:
+
+1. Standardizing the data using the preprocessing.StandardScaler() function from sklearn
+2. Splitting data into training and test sets
+3. Creating four machine learning models which include logistic regression, support vector machine, decision tree, and K nearest neighbors
+4. Fitting the models to the training set
+5. Computing the accuracy based on how close it is to the test set and finding out which model worked the best
+
+When comparing them all of them side by side, we look at the GridSearchCV score to predict accuracy and get the following results:
+- Decision Tree: 0.8893
+- K nearest neighbors (KNN): 0.8482
+- Support vector machine (SVM): 0.8482
+- Logistic Regression: 0.8464
+
+As we can see, the decision tree has the highest score meaning it is the most accurate training model when compared to the test set. 
+
+Decision tree's training model:
+
+![image](https://github.com/SamWeller3/IBM-Capstone-Project/assets/123184681/67be4b14-6e51-4fb6-bea3-8e49ee6fe4ec)
 
 
+## Conclusion 
 
+The adjective of the project was to predict if the Falcon 9 launch will land or not based on variables such as launch site and payload mass. This was to help determine the launch of the cost and the likelyhood of the launch being successful. We used several machine learning algorithms and deployed them side by side to see which one works the best. We eventually decided that the decision tree model worked the best based on the test set.
 
