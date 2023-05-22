@@ -58,7 +58,7 @@ Libraries or modules used: sys, requests, BeautifulSoup from bs4, re, unicodedat
 ## EDA with Pandas and Numpy
 https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Wrangling.ipynb
 
-Libraries or modules used: pandas, numpy
+Libraries or modules used: pandas, numpy, math
 
 Functions from the Pandas and NumPy libraries such as value_counts() are used to derive basic information about the data collected, which includes:
 - Number of launches for each launch site
