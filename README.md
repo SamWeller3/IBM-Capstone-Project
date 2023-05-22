@@ -97,5 +97,23 @@ Example:
 ![image](https://user-images.githubusercontent.com/123184681/236897690-f2322f75-3fef-4dba-99ef-69767bdb9e22.png)
 
 
+## Data Visualization using Folium
+https://github.com/SamWeller3/IBM-Capstone-Project/blob/main/Data%20Visualization%20with%20Folium.ipynb
+
+Libraries or modules used: folium, wget, pandas
+
+We used Folium libraries to visualize data such as:
+- Mark all launch sites on a map
+- Mark the failed and sucessful launch sites
+- Mark distances from the launch sites to the clostest hazard such as roads or cities
+
+Example: Map showing failed and suceeded launches at a particular launch site
+
+![image](https://github.com/SamWeller3/IBM-Capstone-Project/assets/123184681/86913292-2ad7-4649-b8c2-6688733c60ab)
+
+
+## Machine Learning Prediction
+
+
 
 
